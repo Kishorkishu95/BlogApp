@@ -12,7 +12,7 @@ public class PostDto {
 
 
 	@NotEmpty
-	@Size(min = 2,message = "Post title should be more than 2 character in length.")
+	@Size(min = 2,message = "Post title should be more than 2 characters in length.")
 	private String title;
 
 	
